@@ -29,6 +29,10 @@ dependencies {
 
 	// spring security
 	implementation 'org.springframework.boot:spring-boot-starter-security'
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	//oauth 2.0
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 
 	//querydsl 추가
 	implementation "com.querydsl:querydsl-jpa:5.0.0"
